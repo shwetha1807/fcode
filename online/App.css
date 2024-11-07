@@ -1,0 +1,178 @@
+/* General App Styles */
+#app {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+/* Login Section */
+.login-section {
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.login-section h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.login-section input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-section button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Main Section */
+.main-section {
+  width: 80%;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-section h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Course Section */
+.course-section {
+  padding: 10px;
+  border-top: 2px solid #007bff;
+}
+
+.course-section h3 {
+  color: #007bff;
+}
+
+.course-section input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.course-section button {
+  padding: 8px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.course-section button:hover {
+  background-color: #218838;
+}
+
+.course-list {
+  margin-top: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.course-item {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+/* Forum Section */
+.forum-section {
+  padding: 10px;
+  border-top: 2px solid #007bff;
+}
+
+.forum-section h3 {
+  color: #007bff;
+}
+
+.forum-comments {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.comment-item {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-left: 4px solid #007bff;
+}
+
+.comment-item strong {
+  color: #007bff;
+}
+
+.forum-section input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.forum-section button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forum-section button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  align-self: flex-end;
+  padding: 8px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
